@@ -6,9 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "chakra:generate-theme-typings": "chakra-cli tokens theme",
+    "postinstall": "npm run chakra:generate-theme-typings"
   },
   "dependencies": {
+    "@chakra-ui/cli": "^1.5.1",
+    "@chakra-ui/react": "^1.6.8",
+    "@chakra-ui/theme-tools": "^1.2.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
