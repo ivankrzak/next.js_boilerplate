@@ -1,3 +1,3 @@
- const app = "v1.0.0"
+const app = 'v1.0.0'
 
 export default app
